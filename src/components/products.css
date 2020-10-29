@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  justify-content: center;
+  padding: 5% 0;
+}
+.product {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 1% 0;
+  align-items: center;
+  max-width: 33%;
+  border: 1px solid crimson;
+  padding: 1% 0;
+}
+.product img {
+  width: 50%;
+  height: auto;
+}
+.product p {
+  width: 40%;
+}
+.product button {
+  margin-top: 1%;
+  border-radius: 35px;
+  border: none;
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 3%;
+}

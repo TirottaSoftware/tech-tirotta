@@ -1,0 +1,91 @@
+{
+    "products": [
+        {
+            "id": "aspire3a",
+            "title": "Acer Aspire 3 (A315 57G 529R)",
+            "description": "Laptop specs & Desc",
+            "price" : 599,
+            "available": true,
+            "image": "/images/acer-aspire-3-a315-57g-529r.jpg"
+        },
+        {
+            "id": "aspire3b",
+            "title": "Acer Aspire 3",
+            "description": "Laptop2 specs & Desc",
+            "price" : 599,
+            "available": true,
+            "image": "/images/Acer-Aspire-3.png"
+        },
+        {
+            "id": "ideapad5",
+            "title": "Lenovo Ideapad 5",
+            "description": "Laptop3 specs & Desc",
+            "price" : 699,
+            "available": true,
+            "image": "/images/lenovo-ideapad_5.jpg"
+        },
+        {
+            "id": "lenovor340",
+            "title": "Lenovo R340",
+            "description": "Laptop4 specs & Desc",
+            "price" : 999,
+            "available": false,
+            "image": "/images/lenovo_l340.jpg"
+
+        },
+        {
+            "id": "macbook",
+            "title": "Apple macbook Pro 16",
+            "description": "Laptop5 specs & Desc",
+            "price" : 2599,
+            "available": false,
+            "image": "/images/macbook_pro_16.jpg"
+
+        },
+        {
+            "id": "s20ultra",
+            "title": "Samsung Galaxy S20 Ultra",
+            "description": "GSM specs & Desc",
+            "price" : 999,
+            "available": true,
+            "image": "/images/s20-ultra.jpg"
+
+        },
+        {
+            "id": "s10",
+            "title": "Samsung Galaxy S10",
+            "description": "GSM2 specs & Desc",
+            "price" : 799,
+            "available": true,
+            "image": "/images/s10.jpg"
+
+        },
+        {
+            "id": "iphone11pro",
+            "title": "iPhone 11 Pro",
+            "description": "GSM3 specs & Desc",
+            "price" : 1099,
+            "available": true,
+            "image": "/images/iphone11pro.png"
+
+        },
+        {
+            "id": "iphonexsmax",
+            "title": "iPhone XS Max",
+            "description": "GSM4 specs & Desc",
+            "price" : 899,
+            "available": false,
+            "image": "/images/iphonexsmax.jpg"
+
+        },
+        {
+            "id": "iphone8",
+            "title": "iPhone 8",
+            "description": "GSM5 specs & Desc",
+            "price" : 699,
+            "available": false,
+            "image": "/images/iphone8.jpg"
+
+        }
+    ]
+}
