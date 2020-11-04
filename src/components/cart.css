@@ -1,0 +1,42 @@
+.cart-container {
+  width: 30vw;
+  display: flex;
+  flex-flow: column;
+}
+.cart-container h3 {
+  font-weight: 100;
+}
+.cart-item {
+  display: flex;
+  margin: 0px 5%;
+  max-width: 90%;
+}
+.cart-item img {
+  width: 40%;
+  margin: 5%;
+}
+.item-description {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.item-description h5 {
+  font-size: 1.2rem;
+  text-align: start;
+}
+.item-purchase {
+  display: flex;
+}
+.item-purchase p {
+  margin-right: 5%;
+  font-size: 1.5rem;
+  align-self: center;
+  font-weight: 100;
+}
+.item-purchase button {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background: transparent;
+}

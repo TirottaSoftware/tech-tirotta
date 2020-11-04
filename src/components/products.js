@@ -1,24 +1,22 @@
 import React, { Component } from 'react'
-import data from '../products.json';
 import './products.css';
 
 export default class products extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
-            filter: "",
-            products: data.products,
+            cart: []
         }
     }
     render() {
         return (
             <div className = "products">
-                {this.state.products.map((product) =>
+                {this.props.products.map((product) =>
                 <div key = {product.id} className = "product">
                     <img src = {product.image} alt = ""/>
                     <h3 id = "product-title">{product.title}</h3>
                     <p>{product.description}</p>
-                    <button>${product.price}</button>
+                    <button onClick = {() => this.props.addToCart(product)}>${product.price}</button>
                 </div>
                 )}
             </div>
