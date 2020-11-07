@@ -11,6 +11,7 @@ function App() {
   const [type, setType] = useState("");
   const [products, setProducts] = useState(data.products);
   const [cart, setCart] = useState([]);
+  const[totalPrice, setTotalPrice] = useState(0);
 
   const sortPrice = (event) =>{
     setPrice(event.target.value);
@@ -33,6 +34,17 @@ function App() {
     else{
       setProducts(data.products.filter(p => p.type === event.target.value))
     }
+  }
+  useEffect(() => {
+    updateTotalPrice();
+  }, [cart])
+
+  const updateTotalPrice =() =>{
+    let total =0;
+    cart.forEach(product =>{
+      total += product.price;
+    })
+    setTotalPrice(total);
   }
 
   const addToCart = (product) =>{
@@ -63,6 +75,7 @@ function App() {
             addToCart = {addToCart}/>
             <Cart 
             cart = {cart}
+            totalPrice = {totalPrice}
             removeItem = {removeItem}
             />
         </div>   

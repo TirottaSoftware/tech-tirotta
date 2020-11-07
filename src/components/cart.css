@@ -40,3 +40,8 @@
   outline: none;
   background: transparent;
 }
+.cart-price h4 {
+  margin-right: 5%;
+  text-align: end;
+  border-top: 1px solid black;
+}

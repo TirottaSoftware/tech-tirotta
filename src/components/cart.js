@@ -8,10 +8,6 @@ export default class Cart extends Component {
     }
 }
 
-    getTotalPrice = () =>{
-        
-    }
-
     render() {
         return (
             <div className = "cart-container">
@@ -29,7 +25,7 @@ export default class Cart extends Component {
                 </div>)
                 )}
                 <div className = "cart-price">
-                <h4>Total Price: {this.getTotalPrice}</h4>
+                <h4>Total: ${this.props.totalPrice}</h4>
                 </div>
             </div>
         )
