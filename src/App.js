@@ -10,8 +10,12 @@ function App() {
   const [price, setPrice] = useState("");
   const [type, setType] = useState("");
   const [products, setProducts] = useState(data.products);
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = 
+  useState(JSON.parse(localStorage.getItem("cartItems")) 
+  ? JSON.parse(localStorage.getItem("cartItems"))
+  : [] );
   const[totalPrice, setTotalPrice] = useState(0);
+  const[errorMessageStatus, setErrorMessageStatus] = useState("");
 
   const sortPrice = (event) =>{
     setPrice(event.target.value);
@@ -51,13 +55,15 @@ function App() {
     let cartRef = [...cart];
     cartRef.push(product);
    setCart(cartRef);
+   localStorage.setItem("cartItems", JSON.stringify(cartRef));
   }
-
+  
   const removeItem = (product) =>{
     let cartRef = [...cart];
     let index = cartRef.indexOf(product);
     cartRef.splice(index, 1);
     setCart(cartRef);
+    localStorage.setItem("cartItems", JSON.stringify(cartRef));
   }
   
   return (

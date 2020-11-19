@@ -1,0 +1,30 @@
+.checkout-form {
+  display: flex;
+  flex-flow: column;
+  max-width: 75%;
+  align-self: center;
+  margin-top: 15%;
+  transition: 0.5s ease-in-out;
+}
+.hidden {
+  transform: translateX(150%);
+}
+.checkout-form input {
+  outline: none;
+  font-size: 1.5vw;
+  background: white;
+  border: 1px solid crimson;
+  padding: 1%;
+  margin: 1.5% 0;
+}
+.checkout-form .btn-proceed {
+  background: transparent;
+  border: 1px solid crimson;
+  color: crimson;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.checkout-form .btn-proceed:hover {
+  background: crimson;
+  color: white;
+}

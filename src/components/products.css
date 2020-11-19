@@ -20,11 +20,16 @@
 .product img {
   width: 50%;
   height: auto;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.product img:hover {
+  transform: scale(1.05);
 }
 .product p {
   width: 40%;
 }
-.product button {
+.btn-add {
   margin-top: 1%;
   border-radius: 35px;
   border: none;
@@ -34,4 +39,28 @@
   font-size: 1rem;
   padding: 3%;
   outline: none;
+}
+.modal {
+  width: 50vw;
+  height: 60vh;
+  margin: 20vh 25vw;
+  background: white;
+}
+.modal-container {
+  position: relative;
+  background: white;
+}
+.modal-container img {
+  width: 40%;
+  margin: 5%;
+  height: 90%;
+}
+.product-specs {
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+}
+.product-specs .btn-add {
+  padding: 2% 10%;
 }
