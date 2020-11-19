@@ -3,8 +3,14 @@
         {
             "id": "aspire3a",
             "title": "Acer Aspire 3 (A315 57G 529R)",
-            "description": "Laptop specs & Desc",
-            "price" : 599,
+            "description": {
+                "displaySize": 15.6,
+                "CPU": "Intel Core i5 1035G1 Quadcore",
+                "RAM" : "16GB DDR4",
+                "Memory" : "512GB SSD",
+                "GPU": "NVIDIA MX330"
+            },
+            "price" : 699,
             "available": true,
             "type": "Laptop",
             "image": "/images/acer-aspire-3-a315-57g-529r.jpg"
@@ -12,8 +18,14 @@
         {
             "id": "aspire3b",
             "title": "Acer Aspire 3",
-            "description": "Laptop2 specs & Desc",
-            "price" : 599,
+            "description": {
+                "displaySize": 15.6,
+                "CPU": "AMD Ryzen 3250U Dualcore",
+                "RAM" : "4GB DDR4",
+                "Memory" : "128GB SSD",
+                "GPU": "AMD Radeon Graphics"
+            },
+            "price" : 399,
             "available": true,
             "type": "Laptop",
             "image": "/images/Acer-Aspire-3.png"
@@ -21,16 +33,28 @@
         {
             "id": "ideapad5",
             "title": "Lenovo Ideapad 5",
-            "description": "Laptop3 specs & Desc",
-            "price" : 699,
+            "description": {
+                "displaySize": 15.6,
+                "CPU": "Intel Core i5 1035G1 Quadcore",
+                "RAM" : "8GB DDR4",
+                "Memory" : "256GB SSD",
+                "GPU": "Intel UHD Graphics 630"
+            },
+            "price" : 649,
             "available": true,
             "type": "Laptop",
             "image": "/images/lenovo_ideapad_5.jpg"
         },
         {
             "id": "lenovor340",
-            "title": "Lenovo R340",
-            "description": "Laptop4 specs & Desc",
+            "title": "Lenovo Ideapad R340",
+            "description": {
+                "displaySize": 17.3,
+                "CPU": "Intel Core i5 9300H Quadcore",
+                "RAM" : "8GB DDR4",
+                "Memory" : "512GB SSD",
+                "GPU": "NVIDIA GeForce GTX 1050"
+            },
             "price" : 999,
             "available": false,
             "type": "Laptop",
@@ -40,8 +64,14 @@
         {
             "id": "macbook",
             "title": "Apple macbook Pro 16",
-            "description": "Laptop5 specs & Desc",
-            "price" : 2599,
+            "description": {
+                "displaySize": 16,
+                "CPU": "Intel Core i9 8-core",
+                "RAM" : "16GB DDR4",
+                "Memory" : "1000GB SSD",
+                "GPU": "AMD Radeon Pro 5500M"
+            },
+            "price" : 2799,
             "available": false,
             "type": "Laptop",
             "image": "/images/macbook_pro_16.jpg"
@@ -50,7 +80,14 @@
         {
             "id": "s20ultra",
             "title": "Samsung Galaxy S20 Ultra",
-            "description": "GSM specs & Desc",
+            "description": {
+                "displaySize": 6.9,
+                "CPU": "Samsung Exynos 9900",
+                "RAM": 12,
+                "internalStorage": 128,
+                "batteryCapacity": 5000,
+                "camera": "108MP + 48MP + 12MP" 
+            },
             "price" : 999,
             "available": true,
             "type": "Smartphone",
@@ -60,7 +97,14 @@
         {
             "id": "s10",
             "title": "Samsung Galaxy S10",
-            "description": "GSM2 specs & Desc",
+            "description": {
+                "displaySize": 6.1,
+                "CPU": "Samsung Exynos 9820",
+                "RAM": 8,
+                "internalStorage": 128,
+                "batteryCapacity": 3400,
+                "camera": "12MP + 16MP + 12MP" 
+            },
             "price" : 799,
             "available": true,
             "type": "Smartphone",
@@ -70,8 +114,15 @@
         {
             "id": "iphone11pro",
             "title": "iPhone 11 Pro",
-            "description": "GSM3 specs & Desc",
-            "price" : 1099,
+            "description": {
+                "displaySize": 5.8,
+                "CPU": "Apple A13 Bionic",
+                "RAM": 4,
+                "internalStorage": 256,
+                "batteryCapacity": 3046,
+                "camera": "12MP + 12MP + 12MP" 
+            },
+            "price" : 899,
             "available": true,
             "type": "Smartphone",
             "image": "/images/iphone11pro.png"
@@ -80,8 +131,15 @@
         {
             "id": "iphonexsmax",
             "title": "iPhone XS Max",
-            "description": "GSM4 specs & Desc",
-            "price" : 899,
+            "description": {
+                "displaySize": 6.5,
+                "CPU": "Apple A12 Bionic",
+                "RAM": 4,
+                "internalStorage": 256,
+                "batteryCapacity": 3174,
+                "camera": "12MP + 12MP" 
+            },
+            "price" : 699,
             "available": false,
             "type": "Smartphone",
             "image": "/images/iphonexsmax.jpg"
@@ -90,8 +148,15 @@
         {
             "id": "iphone8",
             "title": "iPhone 8",
-            "description": "GSM5 specs & Desc",
-            "price" : 699,
+            "description": {
+                "displaySize": 4.7,
+                "CPU": "Apple A11 Bionic",
+                "RAM": 2,
+                "internalStorage": 64,
+                "batteryCapacity": 1821,
+                "camera": "12MP" 
+            },
+            "price" : 399,
             "available": false,
             "type": "Smartphone",
             "image": "/images/iphone8.jpg"

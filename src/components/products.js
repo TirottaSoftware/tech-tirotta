@@ -60,7 +60,40 @@ export default class products extends Component {
               <img src={this.state.modalProduct.image} />
               <div className="product-specs">
                 <h1>{this.state.modalProduct.title}</h1>
-                <p>{this.state.modalProduct.description}</p>
+                {this.state.modalProduct.type === "Laptop" ? (
+                  <div className="laptop-specs">
+                    <li>
+                      Display size:{" "}
+                      {this.state.modalProduct.description.displaySize}"
+                    </li>
+                    <li>CPU: {this.state.modalProduct.description.CPU}</li>
+                    <li>RAM: {this.state.modalProduct.description.RAM}</li>
+                    <li>
+                      Storage: {this.state.modalProduct.description.Memory}
+                    </li>
+                    <li>GPU: {this.state.modalProduct.description.GPU}</li>
+                  </div>
+                ) : (
+                  <div className="phone-specs">
+                    <li>
+                      Display size:{" "}
+                      {this.state.modalProduct.description.displaySize}"
+                    </li>
+                    <li>CPU: {this.state.modalProduct.description.CPU}</li>
+                    <li>RAM: {this.state.modalProduct.description.RAM}GB</li>
+                    <li>
+                      Storage:{" "}
+                      {this.state.modalProduct.description.internalStorage}GB
+                    </li>
+                    <li>
+                      Battery Capacity:{" "}
+                      {this.state.modalProduct.description.batteryCapacity}mAh
+                    </li>
+                    <li>
+                      Camera: {this.state.modalProduct.description.camera}
+                    </li>
+                  </div>
+                )}
                 <button
                   className="btn-add"
                   onClick={() => this.modalAdd(this.state.modalProduct)}

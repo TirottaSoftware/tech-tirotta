@@ -64,3 +64,9 @@
 .product-specs .btn-add {
   padding: 2% 10%;
 }
+.laptop-specs,
+.phone-specs {
+  text-align: start;
+
+  margin-bottom: 5%;
+}
