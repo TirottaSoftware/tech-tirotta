@@ -2,25 +2,11 @@
   width: 100vw;
   display: flex;
   background: crimson;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-}
-.nav-links {
-  display: flex;
-}
-.nav-links li {
-  font-size: 1rem;
-  margin: 0 3vw;
-  list-style: none;
-  color: white;
-  text-transform: uppercase;
-}
-.nav-links li a {
-  text-decoration: none;
-  outline: none;
-  color: white;
 }
 .navbar h1 {
   text-transform: uppercase;
   text-align: center;
+  color: white;
 }
