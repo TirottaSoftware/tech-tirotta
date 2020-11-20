@@ -125,7 +125,7 @@
             "price" : 899,
             "available": true,
             "type": "Smartphone",
-            "image": "images/iphone11pro.png"
+            "image": "tech-tirotta/images/iphone11pro.png"
 
         },
         {
@@ -142,7 +142,7 @@
             "price" : 699,
             "available": false,
             "type": "Smartphone",
-            "image": "/images/iphonexsmax.jpg"
+            "image": "tech-tirotta/images/iphonexsmax.jpg"
 
         },
         {
@@ -159,7 +159,7 @@
             "price" : 399,
             "available": false,
             "type": "Smartphone",
-            "image": "/images/iphone8.jpg"
+            "image": "tech-tirotta/images/iphone8.jpg"
         }
     ]
 }
