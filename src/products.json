@@ -108,7 +108,7 @@
             "price" : 799,
             "available": true,
             "type": "Smartphone",
-            "image": "/images/s10.jpg"
+            "image": "images/s10.jpg"
 
         },
         {
@@ -125,7 +125,7 @@
             "price" : 899,
             "available": true,
             "type": "Smartphone",
-            "image": "/images/iphone11pro.png"
+            "image": "images/iphone11pro.png"
 
         },
         {
