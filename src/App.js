@@ -73,6 +73,7 @@ function App() {
 
   return (
     <div className="App">
+      {console.log(data)}
       <Navbar />
       <Filter
         count={products.length}

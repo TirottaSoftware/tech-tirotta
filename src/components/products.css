@@ -6,7 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 70vw;
-  justify-content: center;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 .product {
   display: flex;
@@ -19,9 +20,11 @@
 }
 .product img {
   width: 50%;
-  height: auto;
   transition: 0.5s ease;
   cursor: pointer;
+}
+.product h3 {
+  font-size: 1.6vw;
 }
 .product img:hover {
   transform: scale(1.05);

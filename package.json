@@ -1,6 +1,5 @@
 {
   "name": "tech-tirotta",
-  "homepage": "http://TirottaSoftware.github.io/tech-tirotta",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
