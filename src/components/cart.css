@@ -8,12 +8,12 @@
 }
 .cart-container h3 {
   font-weight: 100;
-  margin-bottom: 3vh;
 }
 .cart-item {
   display: flex;
+  margin: 0px 5%;
   height: 15vh;
-  margin: 2vh 5%;
+  margin: 2% 0;
   max-width: 90%;
   align-items: center;
 }
@@ -63,7 +63,7 @@
 }
 .cart-price button {
   align-self: flex-start;
-  margin-top: 1vh;
+  margin-top: 5px;
   font-size: 1.3vw;
   padding: 1% 15%;
   background: transparent;
